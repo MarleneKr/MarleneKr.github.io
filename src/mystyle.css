@@ -1,3 +1,7 @@
+html {
+    text-align: left;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,43 +13,66 @@ body {
 }
 
 h1 {
-    color: white;
-}
-
-h2 {
-    font: Verdana, sans-serif;
+    margin-top: 15px;
+    color: black;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 h2 {
-    font: Verdana, sans-serif;
+    margin-top: 15px;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 h3 {
-    font: Verdana, sans-serif;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 h4 {
-    font: Verdana, sans-serif;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 h5 {
-    font: Verdana, sans-serif;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 h6 {
-    font: Verdana, sans-serif;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
 }
 
 p {
-    font: Georgia, "Times New Roman", serif;
+    margin-top: 10px;
+    font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
-.backgroundblack {
-    background-color: lightgreen
+
+.background {
+    background-color: rgb(204, 240, 204);
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 25px;
+    padding: 8px;
+    background-color: rgb(97, 148, 97);
+    border-color: rgb(97, 148, 97);
+    border: solid 1px rgb(43, 87, 43);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+button:hover {
+
+    background-color: rgb(204, 240, 204);
+}
+
+img {
+    margin-top: 10px;
+    width: 20%;
 }
