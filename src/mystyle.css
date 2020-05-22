@@ -1,12 +1,15 @@
-html {
-    text-align: left;
-
-}
-
 * {
     box-sizing: border-box;
-    margin: 10px;
+    margin: 0;
     padding: 0;
+}
+
+html {
+    text-align: left;
+    border: 10px;
+    border-style: solid;
+    margin: 40px;
+    background-color: aliceblue;  
 }
 
 body {
@@ -18,12 +21,15 @@ h1 {
     color: black;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
+    font-size: 40px;
 }
 
 h2 {
     margin-top: 15px;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
 }
 
 h3 {
@@ -47,9 +53,10 @@ h6 {
 }
 
 p {
-    margin-top: 10px;
+    padding-top: 10px;
     font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
     font-weight: bold;
+    font-size: large;
 }
 
 .background {
@@ -66,6 +73,8 @@ button {
     border: solid 1px rgb(43, 87, 43);
     border-radius: 15px;
     text-decoration: none;
+    width: 10%;
+    font-size: 18px;
 }
 
 button:hover {
@@ -74,7 +83,28 @@ button:hover {
 }
 
 img {
+    padding: 10px;
+    width: 20%;
+}
+
+.imgC {
+    width: 1cm;
+    float: left;
+}
+.imgRight {
+    
     float: right;
-    margin-top: 10px;
+    padding: 10px;
     width: 10%;
+}
+
+.imgLeft {
+    
+    float: left;
+    padding: 10px;
+    width: 10%;
+}
+
+div {
+    border-width: 100%;
 }
